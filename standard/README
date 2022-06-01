@@ -1,7 +1,0 @@
-This is the Buildroot config for browser linux
-https://github.com/darin755/browser-linux.git
-https://buildroot.org
-
-It was build with buildroot-2022.02.1 stable and kernel 5.15.33
-
-Open a issue if you would like to see any additional packages added to browser linux
