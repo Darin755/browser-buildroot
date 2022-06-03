@@ -31,10 +31,10 @@ null::sysinit:/bin/ln -sf /proc/self/fd/2 /dev/stderr
 # Put a getty on the serial port
 console::respawn:/sbin/getty -L console 0 vt100 # GENERIC_SERIAL
 #serial tty's
-ttyS0::respawn:/bin/login -f user
-ttyS1::respawn:/bin/login -f user
-ttyS2::respawn:/bin/login -f user
-ttyS3::respawn:/bin/login -f user
+ttyS0::respawn:/bin/login -f root
+ttyS1::respawn:/bin/login -f root
+ttyS2::respawn:/bin/login -f root
+ttyS3::respawn:/bin/login -f root
 # Stuff to do for the 3-finger salute
 #::ctrlaltdel:/sbin/reboot
 

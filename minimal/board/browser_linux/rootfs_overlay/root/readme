@@ -1,0 +1,4 @@
+This is the minimal version of browser linux
+There is only one user which is root
+the only programs avaiable are lua, pfetch and sl plus the busybox utils
+vi is the text editor
